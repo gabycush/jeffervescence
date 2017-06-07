@@ -1,0 +1,27 @@
+li{
+  list-style-type:none;
+  border: 1px solid grey;
+  padding:.5rem;
+  margin-left:-20px;
+  font-size: 1rem;
+}
+li button{
+  float:right;
+  margin-top:-.2rem;
+  margin-left:.5rem
+}
+
+button.promote{
+  background-color: white;
+}
+button.del{
+  background-color: #ff283d;
+}
+button.up, button.down {
+  background-color: #6bf759;
+}
+
+button img {
+  width:2rem;
+  height:2rem;
+}
