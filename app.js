@@ -108,7 +108,6 @@ const app = {
     let button = ev.target
     if(button.getAttribute('src') == 'star1.png'){
       button.setAttribute('src', 'star.png')
-      button.style.backgroundColor = 'white'
     }
     else{
       button.setAttribute('src', 'star1.png')
