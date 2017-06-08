@@ -1,3 +1,14 @@
+h1{
+  font-family: 'Neucha', cursive;
+  font-size: 5rem;
+}
+body{
+  font-family: 'Ubuntu Mono', monospace;
+  background-image: url('bg.jpg');
+}
+div.row > div{
+  background-color: rgba(226, 220, 208, .8);
+}
 li{
   list-style-type:none;
   border: 1px solid grey;
